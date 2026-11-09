@@ -66,7 +66,7 @@ thesis/
 **Full pipeline** (developed and run on Kaggle with a GPU):
 
 1. Run `01_train_resnet18_cifar10.ipynb`. It writes `checkpoints/epoch_{N}.pth` (113 files, ≈ 45 MB each), `training_history.csv` and `final_model.pth`.
-   Pre-trained checkpoints: **[[LINK TO KAGGLE DATASET]** (https://www.kaggle.com/datasets/parinazghasemi/resnet18-cifar10-checkpoints).
+   Pre-trained checkpoints: [LINK TO KAGGLE DATASET](https://www.kaggle.com/datasets/parinazghasemi/resnet18-cifar10-checkpoints).
 2. Run `02_compute_cka.ipynb` and `03_compute_neural_collapse.ipynb`. Set `CHECKPOINT_DIR` in the configuration cell to the folder with the checkpoints.
 3. Run `04_compare_cka_and_neural_collapse.ipynb`. Put `CKA_results.csv`, `NC_results.csv` and `training_history.csv` in the working directory (or leave them in `results/metrics/`).
 
