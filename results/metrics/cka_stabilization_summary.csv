@@ -1,0 +1,13 @@
+layer,threshold,first_crossing_epoch,strict_epoch
+conv1,0.95,7,70
+layer1,0.95,30,274
+layer2,0.95,244,270
+layer3,0.95,298,298
+layer4,0.95,290,290
+avgpool,0.95,290,290
+conv1,0.99,15,266
+layer1,0.99,296,300
+layer2,0.99,302,302
+layer3,0.99,314,314
+layer4,0.99,306,306
+avgpool,0.99,306,306
