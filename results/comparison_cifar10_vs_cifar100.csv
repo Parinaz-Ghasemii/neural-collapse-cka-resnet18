@@ -1,0 +1,19 @@
+metric,CIFAR-10_epoch,CIFAR-100_epoch
+NC3,268,280
+NC2 angular,284,278
+NC2 (combined),288,282
+NC4,282,286
+NC2 norm,312,296
+NC1,320,314
+CKA ≥ 0.95 (avgpool),290,286
+CKA ≥ 0.99 (avgpool),306,314
+conv1 CKA ≥ 0.95 (strict),70,2
+layer1 CKA ≥ 0.95 (strict),274,232
+layer2 CKA ≥ 0.95 (strict),270,180
+layer3 CKA ≥ 0.95 (strict),298,272
+layer4 CKA ≥ 0.95 (strict),290,286
+conv1 CKA ≥ 0.99 (strict),266,180
+layer1 CKA ≥ 0.99 (strict),300,270
+layer2 CKA ≥ 0.99 (strict),302,276
+layer3 CKA ≥ 0.99 (strict),314,294
+layer4 CKA ≥ 0.99 (strict),306,314
